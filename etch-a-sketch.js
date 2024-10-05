@@ -24,4 +24,4 @@ function getRandomColor() {
   return color;
 }
 
-createGrid(16, 16);
+createGrid(24, 24);

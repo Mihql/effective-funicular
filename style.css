@@ -1,0 +1,16 @@
+#grid-container {
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border: 10px solid #cccc;
+}
+
+.grid-item {
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    border: 2px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and borders are included within width/height */
+    background-color: white;
+}  
